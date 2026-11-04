@@ -79,13 +79,9 @@ a{color:#0F2440}a:hover{color:#08162A}
 </form>
 </section>
 <section id="support" style="padding-bottom: 64px">
-<h2 style="margin: 0 0 18px; font-size: 28px">Support</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; font-size: 15px">
-<a href="mailto:support@novafieldstudio.com" style="background: #FFFFFF; border-radius: 6px; padding: 16px; text-decoration: none"><strong>General</strong><br>support@novafieldstudio.com</a>
-<a href="mailto:soundcontour@novafieldstudio.com" style="background: #FFFFFF; border-radius: 6px; padding: 16px; text-decoration: none"><strong>Sound Contour</strong><br>soundcontour@novafieldstudio.com</a>
-<a href="mailto:pocketscope@novafieldstudio.com" style="background: #FFFFFF; border-radius: 6px; padding: 16px; text-decoration: none"><strong>Pocket Scope</strong><br>pocketscope@novafieldstudio.com</a>
-<a href="mailto:crewspot@novafieldstudio.com" style="background: #FFFFFF; border-radius: 6px; padding: 16px; text-decoration: none"><strong>CrewSpot</strong><br>crewspot@novafieldstudio.com</a>
-</div>
+<h2 style="margin: 0 0 8px; font-size: 28px">Support</h2>
+<p style="margin: 0 0 18px; color: #4A5670; line-height: 1.6">Questions about any of our apps? Email us and mention which app you're using.</p>
+<a href="mailto:support@novafieldstudio.com" style="display: inline-block; background: #FFFFFF; border-radius: 6px; padding: 16px 20px; text-decoration: none; font-size: 17px; font-weight: 700">support@novafieldstudio.com</a>
 </section>
 </div>
 <footer style="background: #0F2440; color: #B8C4D6">
@@ -98,7 +94,7 @@ a{color:#0F2440}a:hover{color:#08162A}
 <script>
 document.getElementById('fb').addEventListener('submit',function(e){e.preventDefault();
 var app=document.getElementById('fb-app').value,msg=document.getElementById('fb-msg').value,em=document.getElementById('fb-email').value;
-var to={'Sound Contour':'soundcontour','Pocket Scope':'pocketscope','CrewSpot':'crewspot'}[app]||'support';
+var to='support';
 var body=msg+(em?'\n\nReply to: '+em:'');
 location.href='mailto:'+to+'@novafieldstudio.com?subject='+encodeURIComponent(app+' feedback')+'&body='+encodeURIComponent(body);});
 </script></body></html>
