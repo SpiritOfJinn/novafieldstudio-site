@@ -35,6 +35,9 @@ a{color:#0F2440}a:hover{color:#08162A}
 section.block{padding:72px 0 0}
 #features>h2,#remote>h2{text-align:center}
 #features>.sub,#remote>.sub{text-align:center;margin-left:auto;margin-right:auto}
+#mac>h2{text-align:center}#mac>.sub{text-align:center;margin-left:auto;margin-right:auto}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.shots img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:0 10px 24px rgba(15,36,64,.18)}
 section.block h2{margin:0 0 10px;font-size:32px;line-height:1.2}
 .sub{margin:0 0 28px;color:#4A5670;max-width:640px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
@@ -71,7 +74,7 @@ footer .wrap{padding:28px 24px 36px;display:flex;flex-wrap:wrap;justify-content:
 <a class="btn" href="https://apps.apple.com/app/id6807615735?platform=mac">Download on the App Store</a>
 <a class="btn ghost" href="#features">See the features</a>
 </div>
-<p class="price"><strong>Free 7-day trial</strong> · No credit card needed · then $9.99 once · No subscription</p>
+<p class="price"><strong>Free 7-day trial</strong> · No credit card required · then $9.99 once · No subscription</p>
 <p class="price" style="margin-top:6px"><strong>Requires macOS 14.4 or later.</strong> The iPhone and iPad apps are included with your Mac purchase and work as a remote control for Sound Contour on your Mac.</p>
 </div>
 <div class="hero-art">
@@ -92,13 +95,26 @@ footer .wrap{padding:28px 24px 36px;display:flex;flex-wrap:wrap;justify-content:
 <div class="grid">
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M4 18V10M9 18V6M14 18v-4M19 18V8"/></svg></div><h3>10-band Graphic EQ</h3><p>Precise control over 10 frequency bands, with a live response curve that updates as you adjust.</p></div>
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M3 15c3 0 4-8 7-8s3 10 6 10 3-6 5-6"/></svg></div><h3>Parametric EQ</h3><p>Switch the Dashboard to Parametric to set each band's type, frequency, gain and Q.</p></div>
-<div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M5 4h14v16l-7-4-7 4z"/></svg></div><h3>Presets</h3><p>Built-in presets like bass boost, vocal clarity and flat reference. Save your own and switch in one click.</p></div>
+<div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M5 4h14v16l-7-4-7 4z"/></svg></div><h3>42 presets</h3><p>Built-in presets like bass boost, vocal clarity and flat reference, plus 24 headphone corrections. Mix two presets into a new one, save your own, and switch in one click.</p></div>
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><circle cx="8" cy="12" r="5"/><circle cx="17" cy="12" r="4"/><path d="M8 12V8M17 12l2-2"/></svg></div><h3>Bass &amp; treble dials</h3><p>Quick tone controls for fast changes without opening the full equalizer.</p></div>
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M3 18v-5a9 9 0 0 1 18 0v5"/><rect x="3" y="15" width="4" height="6" rx="1"/><rect x="17" y="15" width="4" height="6" rx="1"/></svg></div><h3>Per-device settings</h3><p>Different settings for each output, so switching between headphones and speakers just works.</p></div>
-<div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><rect x="3" y="4" width="8" height="7" rx="1"/><rect x="13" y="4" width="8" height="7" rx="1"/><rect x="3" y="13" width="8" height="7" rx="1"/><rect x="13" y="13" width="8" height="7" rx="1"/></svg></div><h3>Per-app profiles</h3><p>Set different EQ curves for different applications.</p></div>
+<div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><rect x="3" y="4" width="8" height="7" rx="1"/><rect x="13" y="4" width="8" height="7" rx="1"/><rect x="3" y="13" width="8" height="7" rx="1"/><rect x="13" y="13" width="8" height="7" rx="1"/></svg></div><h3>Two apps, two sounds</h3><p>Give each app its own preset. It can switch as you move between apps, or two apps can keep their own preset at the same time, like a game and a voice chat.</p></div>
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><rect x="3" y="3" width="18" height="5" rx="1"/><path d="M8 12h8M10 16h4"/></svg></div><h3>Menu bar access</h3><p>Adjust your sound from the menu bar without leaving what you're doing.</p></div>
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div><h3>Clean, protected sound</h3><p>Automatic headroom protection, dynamic limiting and high-precision filters keep boosts from distorting.</p></div>
 <div class="card"><div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F2440" stroke-width="2"><path d="M4 12h16M12 4v16"/><circle cx="12" cy="12" r="9"/></svg></div><h3>No driver to install</h3><p>Nothing to install deep in your system. Download from the Mac App Store and start listening.</p></div>
+</div>
+</section>
+
+<section class="block" id="mac">
+<h2>See it on your Mac</h2>
+<p class="sub">More bass, louder sound and a preset for every pair of headphones, with no driver to install.</p>
+<div class="shots">
+<img src="/soundcontour/images/mac-1-better-sound.webp?v=1" alt="Sound Contour Dashboard on Mac with the Bass knob turned up" width="1440" height="900" loading="lazy">
+<img src="/soundcontour/images/mac-2-without-clipping.webp?v=1" alt="Bass Boost turned up without clipping" width="1440" height="900" loading="lazy">
+<img src="/soundcontour/images/mac-3-presets.webp?v=1" alt="42 presets and the preset mixer" width="1440" height="900" loading="lazy">
+<img src="/soundcontour/images/mac-4-every-headphone.webp?v=1" alt="A different preset for each output device" width="1440" height="900" loading="lazy">
+<img src="/soundcontour/images/mac-5-two-apps.webp?v=1" alt="Two apps, each with its own preset at the same time" width="1440" height="900" loading="lazy">
+<img src="/soundcontour/images/mac-6-parametric.webp?v=1" alt="Parametric EQ with 9 filter types" width="1440" height="900" loading="lazy">
 </div>
 </section>
 
@@ -135,7 +151,7 @@ footer .wrap{padding:28px 24px 36px;display:flex;flex-wrap:wrap;justify-content:
 <section class="block" id="pricing">
 <h2>Simple pricing</h2>
 <div class="split">
-<div><h3>Try it free for 7 days</h3><p style="margin:0;color:#4A5670">Download Sound Contour and use every feature free for 7 days. No payment needed to start.</p></div>
+<div><h3>Try it free for 7 days</h3><p style="margin:0;color:#4A5670">Download Sound Contour and use every feature free for 7 days. No credit card required.</p></div>
 <div><h3>Then $9.99, once</h3><p style="margin:0;color:#4A5670">Unlock Sound Contour Pro with a single one-time purchase. No subscription and no recurring fees.</p></div>
 <div><h3>Private</h3><p style="margin:0;color:#4A5670">Sound Contour doesn't collect your data. Read the <a href="/soundcontour/privacy.html">privacy policy</a>.</p></div>
 </div>
@@ -144,13 +160,13 @@ footer .wrap{padding:28px 24px 36px;display:flex;flex-wrap:wrap;justify-content:
 <div class="cta">
 <div><h2>Hear the difference today</h2>
 <a class="btn" style="margin:12px 0 18px" href="https://apps.apple.com/app/id6807615735?platform=mac">Download on the App Store</a>
-<p>Free 7-day trial, then $9.99 once.</p><p style="margin-top:4px">Requires macOS 14.4 or later. The iPhone and iPad apps are included with your purchase and work as a remote control for Sound Contour on your Mac.</p></div>
+<p>Free 7-day trial, no credit card required. Then $9.99 once.</p><p style="margin-top:4px">Requires macOS 14.4 or later. The iPhone and iPad apps are included with your purchase and work as a remote control for Sound Contour on your Mac.</p></div>
 </div>
 
 <section class="block" id="help">
 <h2>Help &amp; FAQ</h2>
 <div class="faq">
-<details open><summary>How much does it cost?</summary><p>Sound Contour is free to download with a 7-day free trial. After that, it's a one-time $9.99 purchase. There's no subscription.</p></details>
+<details open><summary>How much does it cost?</summary><p>Sound Contour is free to download with a 7-day free trial, no credit card required. After that, it's a one-time $9.99 purchase. There's no subscription.</p></details>
 <details><summary>I already bought it. How do I unlock it on another Mac?</summary><p>Open Sound Contour, go to Settings, and click <strong>Restore Purchases</strong>. Use the same Apple Account you bought it with.</p></details>
 <details><summary>The equalizer isn't changing my audio.</summary><p>macOS needs to give Sound Contour permission to process system audio. Open Sound Contour's Settings and follow the permission prompt, or check System Settings &gt; Privacy &amp; Security.</p></details>
 <details><summary>Does the iPhone or iPad app work on its own?</summary><p>No. It's a remote control for Sound Contour on your Mac. It doesn't change audio playing on your iPhone or iPad. Your Mac must be running Sound Contour on the same Wi-Fi network.</p></details>
